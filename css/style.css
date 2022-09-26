@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    
+  
+}
+
+.wrap1 {
+    display: flex;
+
+    justify-content: space-between;
+   
+
+   
+}
+
+
+
+.btn {
+    width: 127px;
+    height: 43px;
+    background-color: white;
+    border: 2px solid burlywood;
+     justify-content: flex-end;
+
+     
+}
+
+nav{ display: flex;  justify-content: space-between; margin-top: 52px;}
+
+nav ul{ list-style: none;}
+
+nav ul li{ float: right;  }
+
+nav ul li a{ text-decoration: none; margin: 20px; color: black;}
+
+.fa{ margin-right: 20px;}
+
+.warp2{ margin-top: 20px;}
+
+.aside{ margin-top: 50px;  font-size: 13px;}
+
+.aside h2 { font-size: 43px;}
+.box {
+    padding: 2px;
+    width: 612px;
+    height: 600px;
+   
+    margin-right: 10px;
+    background-color: #eeeeee;
+
+    float: left;
+}
+
+.box img{  
+   /*  width: 500px;
+    height: 600px;
+    align-items: center; */
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+
+}
+
+.aside h4{ margin: 10px;}
+.aside h3{ color: red;}
+
+.product{  margin: 35px;}
+.bullets{ margin-top: 60px;}
+
+
+.rating { color: red; padding: 7px;}
+.btn1{
+    width: 127px;
+    height: 43px;
+    background-color:black;
+    border: 2px solid black;
+     justify-content: flex-end;
+     color: white;
+
+     
+}
+
+.button{ margin-top: 86px;}
+.btn2{
+    width: 127px;
+    height: 43px;
+    background-color:black;
+    border: 2px solid black;
+     justify-content: flex-end;
+     color: white;
+
+     
+}
+
+   /* Javascript  Backgroud-Color Changer */
+   .color-changer{ margin: 19px;}
+
+   .btn13{
+
+    width: 20px;
+    height: 20px;
+    border: 1px black solid;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: inline-block;
+
+   }
+   #text13{  vertical-align: text-bottom; font-size: 19px;
+    font-family: cursive;}
+
+   #pink{
+       background-color: pink;
+   }
+
+   #voilet{ background-color: blueviolet;}
+
+   #yellow{ background-color: yellow;}
+
+   #aqua{ background-color: aqua;}
+
+
+   /* Responsive Start */
+
+
+   @media only screen and (max-width :1024px){
+    .aside{ font-size: 8px;}
+   }
+
+   @media only screen and (max-width :768px){
+    .box{ width: 417px;}  /* 439px */
+    .box img { width: 400px;}
+   }
+    @media only screen and (max-width :425px){
+        .aside h2 {
+            font-size: 34px;}
+
+            .product {
+                margin: 7px;}
+     }
+
+
+     
+       
+
+
+   
+
+
+   @media only screen and (max-width :320px){
+
+    .btn {
+        width: 87px;
+        height: 35px;
+    }
+
+
+    .box{
+        width: 309px;
+    }
+
+    .box img{
+        width: 309px;
+    }
+        
+}
+
+
+
+
+@media only screen and (max-width :767px){
+    .aside h2 { font-size: 3rem;}
+        
+}
+
+
+

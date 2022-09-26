@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+  
+}
+
+.wrap1 {
+    display: flex;
+
+    justify-content: center;
+}
+
+
+
+.btn {
+    width: 127px;
+    height: 52px;
+    background-color: white;
+    border: 2px solid burlywood;
+     justify-content: flex-end;
+}
+
